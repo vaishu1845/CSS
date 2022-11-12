@@ -1,0 +1,44 @@
+CSS selectors:-
+
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+1.Simple selectors (select elements based on name, id, class)
+2.Combinator selectors (select elements based on a specific relationship between them)
+3.Pseudo-class selectors (select elements based on a certain state)
+4.Pseudo-elements selectors (select and style a part of an element)
+5.Attribute selectors (select elements based on an attribute or attribute value)
+
+Simple selectors:-
+
+---name selector:- based on element name.
+
+p {
+  text-align: center;
+  color: red;
+}
+
+---id selector:-
+
+id selector uses the id attribute of an HTML element to select a specific element.
+
+id of an element is unique within a page, so the id selector is used to select one unique element!
+
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+An id name cannot start with a number!
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+--class selector:-
+
+To select elements with a specific class, write a period (.) character, followed by the class name.
+
+The class selector selects HTML elements with a specific class attribute.
+
+.center {
+  text-align: center;
+  color: red;
+}
